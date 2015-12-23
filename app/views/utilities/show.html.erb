@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @utility.name %>
+</p>
+
+<p>
+  <strong>Website:</strong>
+  <%= @utility.website %>
+</p>
+
+<%= link_to 'Edit', edit_utility_path(@utility) %> |
+<%= link_to 'Back', utilities_path %>

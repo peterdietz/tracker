@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Utility:</strong>
+  <%= @utility_customer.utility %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @utility_customer.user %>
+</p>
+
+<p>
+  <strong>Accountnumber:</strong>
+  <%= @utility_customer.accountNumber %>
+</p>
+
+<%= link_to 'Edit', edit_utility_customer_path(@utility_customer) %> |
+<%= link_to 'Back', utility_customers_path %>
